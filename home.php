@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>FON: Prijava kolokvijuma</title>
+    <title>FON: Prijava ispita</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
@@ -17,7 +17,7 @@
         </div>
         <!-- Header section -->
         <div class="jumbotron text-center">
-            <h1>Prijava Kolokvijuma</h1>
+            <h1>Prijava ispita</h1>
             <p>Fakultet organizacionih nauka</p>
         </div>
 
@@ -59,7 +59,7 @@
                             <?php } ?>
                             ?>
                             <tr>
-                                <td colspan="5" class="text-center">Nema unetih kolokvijuma</td>
+                                <td colspan="5" class="text-center">Nema unetih ispita</td>
                             </tr>
                         </tbody>
                     </table>
@@ -83,7 +83,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title text-center">Zakazi kolokvijum</h3>
+                        <h3 class="modal-title text-center">Zakazi ispit</h3>
                     </div>
                     <div class="modal-body">
                         <form action="#" method="post" id="dodajForm">
@@ -116,7 +116,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h3 class="modal-title text-center">Izmeni kolokvijum</h3>
+                        <h3 class="modal-title text-center">Izmeni ispit</h3>
                     </div>
                     <div class="modal-body">
                         <form action="#" method="post" id="izmeniForm">
